@@ -30,15 +30,14 @@
      - Memory Information
      - Uptime Information
 
-2. **Create a Backup of the OS**
-   - excluding the following directories:
-     - `/baker_street_backup.tar.gz` (to avoid recursive inclusion)
-     - `/proc`
-     - `/tmp`
-     - `/mnt`
-     - `/sys`
-     - `/dev`
-     - `/run`
+2. **Create a Backup of the OS, Excluding the Following Directories**
+   - `/baker_street_backup.tar.gz` (to avoid recursive inclusion)
+   - `/proc`
+   - `/tmp`
+   - `/mnt`
+   - `/sys`
+   - `/dev`
+   - `/run`
 
 3. **Verify Output**
    - Confirm the summary report is generated with the collected system details.
