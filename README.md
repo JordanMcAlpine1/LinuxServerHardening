@@ -276,3 +276,13 @@ Below is the current list of employees and their employment status
 3. **Stop, Disable, and Remove Identified Services from the System**
 
 
+![Screenshot 2024-12-05 at 4 28 03 PM](https://github.com/user-attachments/assets/f1d76d76-c37c-4c23-95ad-85bc702eca87)
+
+![Screenshot 2024-12-05 at 4 36 07 PM](https://github.com/user-attachments/assets/6722bdec-b100-43e2-b76f-7ea52d454ccb)
+
+![Screenshot 2024-12-05 at 4 37 48 PM](https://github.com/user-attachments/assets/5e978a08-49ce-4839-b129-ce3bb7ee97af)
+
+![Screenshot 2024-12-05 at 4 38 54 PM](https://github.com/user-attachments/assets/fc57ae19-7407-43f6-8477-d68241e3050e)
+
+![Screenshot 2024-12-05 at 4 42 50 PM](https://github.com/user-attachments/assets/69d155be-b683-4603-83c6-ec6b05c8e676)
+
