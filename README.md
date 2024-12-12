@@ -231,15 +231,15 @@ Below is the current list of employees and their employment status
 4. **Remove Unnecessary Dependencies**
 
 5. **Install Essential Security Tools**
-  - **Install the following packages:**
-     - **UFW (Uncomplicated Firewall)**: Simplifies firewall management.
-     - **Lynis**: Performs security audits.
-     - **Tripwire**: Detects and reports file system changes.
+     - **Install the following packages:**
+        - **UFW (Uncomplicated Firewall)**: Simplifies firewall management.
+        - **Lynis**: Performs security audits.
+        - **Tripwire**: Detects and reports file system changes.
 
 #### Notes
    ##### Removed Packages and Security Vulnerabilities Explanation:
-      - **Telnet**: Transmits data, including passwords, in plaintext, making it vulnerable to interception.
-      - **RSH (Remote Shell)**: Lacks encryption and authentication, making it susceptible to spoofing and eavesdropping.
+   - **Telnet**: Transmits data, including passwords, in plaintext, making it vulnerable to interception.
+   - **RSH (Remote Shell)**: Lacks encryption and authentication, making it susceptible to spoofing and eavesdropping.
 
 
 ![Screenshot 2024-12-04 at 8 58 25 PM](https://github.com/user-attachments/assets/9b2c68ce-2b21-4fe6-bc82-030438490423)
