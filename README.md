@@ -124,3 +124,34 @@ Below is the current list of employees and their employment status
 
 ![Screenshot 2024-12-03 at 11 56 11 AM](https://github.com/user-attachments/assets/0a7c8f89-1208-40e2-b4a7-a0e9a631ae8b)
 
+
+
+---
+
+## Sudo Privilege Configuration
+
+### Main Objective: Configure sudo privileges for employees as per the following requirements:
+
+### Requirements
+
+1. **Full Sudo Privileges**
+   - Only **Sherlock** should have full sudo privileges.
+   - Remove full sudo privileges from all other users.
+
+2. **Restricted Sudo Privileges**
+   - **Watson** and **Mycroft** should only have sudo access to run the script located at:
+     ```plaintext
+     /var/log/logcleanup.sh
+     ```
+
+3. **Research Group Privileges**
+   - All employees belonging to the `research` group should only have sudo access to run the following script:
+     ```plaintext
+     /tmp/scripts/research_script.sh
+     ```
+
+
+![Screenshot 2024-12-03 at 6 32 26 PM](https://github.com/user-attachments/assets/92029e7a-350a-49ba-908b-1550408c40db)
+
+![Screenshot 2024-12-03 at 6 40 56 PM](https://github.com/user-attachments/assets/3851b865-8249-45e4-80d9-6f73ac2af5de)
+
