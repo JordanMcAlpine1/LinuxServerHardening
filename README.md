@@ -30,7 +30,7 @@
      - Memory Information
      - Uptime Information
 
-2. **Create a Backup of the OS, Excluding the Following Directories**
+2. **Create a Backup of the OS, Excluding the Following Directories:**
    - `/baker_street_backup.tar.gz` (to avoid recursive inclusion)
    - `/proc`
    - `/tmp`
