@@ -344,3 +344,21 @@ Below is the current list of employees and their employment status
 ### hardening_script2 Test
 
 ![Screenshot 2024-12-06 at 3 09 28 PM](https://github.com/user-attachments/assets/12f1db76-a296-45be-a716-86ba862ef186)
+
+
+
+---
+
+## Schedule Hardening Scripts
+
+### Main Objective: Schedule `bash` scripts using `cron`.
+
+### Tasks
+
+1. **Schedule hardening_script1 to run once a month on the first of the month**
+
+2. **Schedule hardening_script2 to run once a week every monday**
+
+![Screenshot 2024-12-06 at 3 17 29 PM](https://github.com/user-attachments/assets/ceabb7c4-87cf-410e-bcf0-a14612638827)
+
+![Screenshot 2024-12-06 at 3 18 20 PM](https://github.com/user-attachments/assets/2e069b9e-4de4-48db-b67d-fcf35c8e43f6)
