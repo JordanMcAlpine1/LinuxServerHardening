@@ -21,7 +21,7 @@
 
 ### Main Objective: Collect system information and backup the OS.
 
-## Tasks
+### Tasks
 
 1. **Collect System Information**
    - Retrieve the following information and document it in a summary report:
@@ -76,7 +76,7 @@ Below is the current list of employees and their employment status
 | toby          | Employed              |
 | adler         | Employed              |
 
-## Tasks
+### Tasks
 
 1. **Remove Terminated Staff**
    - **Actions**:
@@ -127,8 +127,6 @@ Below is the current list of employees and their employment status
 
 ### Main Objective: Configure sudo privileges for employees as per the following requirements:
 
-### Requirements
-
 1. **Full Sudo Privileges**
    - Only **Sherlock** should have full sudo privileges.
    - Remove full sudo privileges from all other users.
@@ -158,7 +156,7 @@ Below is the current list of employees and their employment status
 
 ### Main Objective: Secure file permissions and clean up sensitive files from the system.
 
-## Tasks
+### Tasks
 
 1. **Remove World Permissions in Any User's Home Directory**
 
@@ -191,7 +189,7 @@ Below is the current list of employees and their employment status
 
 ### Main Objective: Configure the SSH service to enhance security and restart the service to apply updates.
 
-## Tasks
+### Tasks
 
 1. **Configure SSH to Disable Empty Passwords**
 
@@ -222,18 +220,13 @@ Below is the current list of employees and their employment status
 
 ### Main Objective: Update the package manager, identify and address potential security issues, and install essential security tools.
 
-## Tasks
+### Tasks
 
 1. **Update and Upgrade Packages to the Latest Package Versions**
 
 2. **Create a List of Installed Packages for Review**
 
 3. **Identify and Remove Potentially Vulnerable Packages**
-
-#### Notes
-   ##### Removed Packages and Security Vulnerabilities Explanation:
-   - **Telnet**: Transmits data, including passwords, in plaintext, making it vulnerable to interception.
-   - **RSH (Remote Shell)**: Lacks encryption and authentication, making it susceptible to spoofing and eavesdropping.
 
 4. **Remove Unnecessary Dependencies**
 
@@ -242,7 +235,12 @@ Below is the current list of employees and their employment status
      - **UFW (Uncomplicated Firewall)**: Simplifies firewall management.
      - **Lynis**: Performs security audits.
      - **Tripwire**: Detects and reports file system changes.
-  
+
+#### Notes
+   ##### Removed Packages and Security Vulnerabilities Explanation:
+      - **Telnet**: Transmits data, including passwords, in plaintext, making it vulnerable to interception.
+      - **RSH (Remote Shell)**: Lacks encryption and authentication, making it susceptible to spoofing and eavesdropping.
+
 
 ![Screenshot 2024-12-04 at 8 58 25 PM](https://github.com/user-attachments/assets/9b2c68ce-2b21-4fe6-bc82-030438490423)
 
