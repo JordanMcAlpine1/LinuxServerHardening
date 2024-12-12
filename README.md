@@ -42,9 +42,61 @@
    - Confirm the summary report is generated with the collected system details.
    - Check that the backup file, `/baker_street_backup.tar.gz`, is created successfully.
 
-### Commands Overview
 
-##### Backup Command
-To create the backup:
-```bash
-sudo tar -cvpzf /baker_street_backup.tar.gz --exclude=/baker_street_backup.tar.gz --exclude=/proc --exclude=/tmp --exclude=/mnt --exclude=/sys --exclude=/dev --exclude=/run
+
+
+---
+
+## Employee Audit and Access Management
+
+### Main Objective: Audit employees to ensure that users and groups have the minimum required access to perform their work.
+
+### Staff List and Position Updates
+
+Below is the current list of employees, their employment status, and actions required:
+
+| Employee Name | Employment Status     |
+|---------------|-----------------------|
+| sherlock      | Employed              |
+| watson        | Employed              |
+| mycroft       | Employed              |
+| moriarty      | On temporary leave    |
+| lestrade      | Terminated            |
+| irene         | Terminated            |
+| mrs_hudson    | On temporary leave    |
+| mary          | Terminated            |
+| gregson       | Terminated            |
+| toby          | Employed              |
+| adler         | Employed              |
+
+## Tasks
+
+### 1. Remove Terminated Staff
+- **Objective**: Delete all user accounts of staff listed as "Terminated."
+- **Actions**:
+  - Remove their user accounts.
+  - Delete their home directories and files.
+
+### 2. Lock User Accounts on Temporary Leave
+- **Objective**: Restrict access for employees on "temporary leave."
+- **Actions**:
+  - Lock the accounts to prevent login.
+
+### 3. Unlock Employed Users
+- **Objective**: Ensure all users listed as "Employed" have active accounts.
+- **Actions**:
+  - Unlock their accounts if they are locked.
+
+### 4. Manage Group Memberships
+- **Objective**: Update group memberships for employees as per organizational changes.
+- **Actions**:
+  - Move all employees previously in the `marketing` group to a new group named `research`. Create the `research` group if it does not exist.
+  - Remove the `marketing` group entirely, as the department has been closed.
+
+
+## Command Overview
+
+### Remove Terminated Staff
+- Delete user accounts and home directories:
+  ```bash
+  sudo userdel -r <username>
