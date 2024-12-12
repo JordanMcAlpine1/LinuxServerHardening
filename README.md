@@ -59,7 +59,7 @@
 
 ### Staff List and Position Updates
 
-Below is the current list of employees, their employment status, and actions required:
+Below is the current list of employees and their employment status
 
 | Employee Name | Employment Status     |
 |---------------|-----------------------|
