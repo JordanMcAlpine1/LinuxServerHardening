@@ -80,22 +80,22 @@ Below is the current list of employees and their employment status
 ## Tasks
 
 1. **Remove Terminated Staff**
-- **Actions**:
-  - Remove their user accounts.
-  - Delete their home directories and files.
+   - **Actions**:
+     - Remove their user accounts.
+     - Delete their home directories and files.
 
 2. **Lock User Accounts on Temporary Leave**
-- **Actions**:
-  - Lock the accounts to prevent login.
+   - **Actions**:
+     - Lock the accounts to prevent login.
 
 3. **Unlock Employed Users**
-- **Actions**:
-  - Unlock their accounts if they are locked.
+   - **Actions**:
+     - Unlock their accounts if they are locked.
 
 4. **Manage Group Memberships**
-- **Actions**:
-  - Move all employees previously in the `marketing` group to a new group named `research`. Create the `research` group if it does not exist.
-  - Remove the `marketing` group entirely, as the department has been closed.
+   - **Actions**:
+     - Move all employees previously in the `marketing` group to a new group named `research`. Create the `research` group if it does not exist.
+     - Remove the `marketing` group entirely, as the department has been closed.
 
 
 ![Screenshot 2024-12-02 at 9 00 29 PM](https://github.com/user-attachments/assets/a1701677-a6e1-4a01-be1a-2d6b0bb47b63)
