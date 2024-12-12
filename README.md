@@ -23,10 +23,10 @@
 
 1. **Collect System Information**
    - Retrieve the following information and document it in a summary report:
-     - HostName: Use the `hostname` command.
-     - OS Version: Use `cat /etc/os-release`.
-     - Memory Information: Use `free -h` for human-readable memory details.
-     - Uptime Information: Use the `uptime` command.
+     - HostName: Executing the `hostname` command.
+     - OS Version: Executing `cat /etc/os-release`.
+     - Memory Information: Executing `free -h` for human-readable memory details.
+     - Uptime Information: Executing the `uptime` command.
 
 2. **Create a Backup of the OS**
    - Use the `tar` command to back up the OS to `/baker_street_backup.tar.gz`, excluding the following directories:
@@ -44,13 +44,7 @@
 
 ### Commands Overview
 
-### Collect Information
-- **HostName**: `hostname`
-- **OS Version**: `cat /etc/os-release`
-- **Memory Information**: `free -h`
-- **Uptime Information**: `uptime`
-
-### Backup Command
+##### Backup Command
 To create the backup:
 ```bash
 sudo tar -cvpzf /baker_street_backup.tar.gz --exclude=/baker_street_backup.tar.gz --exclude=/proc --exclude=/tmp --exclude=/mnt --exclude=/sys --exclude=/dev --exclude=/run
