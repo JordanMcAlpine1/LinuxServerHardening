@@ -77,7 +77,7 @@ Below is the current list of employees and their employment status
 
 ## Tasks
 
-### 1. Remove Terminated Staff
+1. **Remove Terminated Staff**
 - **Objective**: Delete all user accounts of staff listed as "Terminated."
 - **Actions**:
   - Remove their user accounts.
