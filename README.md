@@ -109,7 +109,7 @@ Below is the current list of employees and their employment status
 
 ### Main Objective: Update the password requirements for all users to enhance security.
 
-### Requirements
+### Requirements:
 
 - Minimum 8 characters.
 - At least one special character.
@@ -182,4 +182,79 @@ Below is the current list of employees and their employment status
 ![Screenshot 2024-12-03 at 6 57 29 PM](https://github.com/user-attachments/assets/da2046cf-4027-47a6-9e4e-29183704563e)
 
 ![Screenshot 2024-12-03 at 7 03 10 PM](https://github.com/user-attachments/assets/344516c3-7da2-42e4-939e-5d05bfbb1ab6)
+
+
+
+---
+
+## Secure SSH Configuration
+
+### Main Objective: Configure the SSH service to enhance security and restart the service to apply updates.
+
+## Tasks
+
+1. **Configure SSH to Disable Empty Passwords**
+
+2. **Disable Root SSH Login**
+
+3. **Restrict SSH to Port 22 Only**
+
+4. **Enable SSH Protocol 2**
+
+5. **Restart the SSH Service to Apply New Configuration Settings**
+
+
+![Screenshot 2024-12-04 at 7 56 15 PM](https://github.com/user-attachments/assets/d5530051-2701-4825-9ab0-6f48fc39250b)
+
+![Screenshot 2024-12-04 at 7 57 28 PM](https://github.com/user-attachments/assets/5578390a-a98d-4e76-9f5c-36cc6421cf5a)
+
+![Screenshot 2024-12-04 at 8 00 01 PM](https://github.com/user-attachments/assets/debd20c1-3d9a-45e9-a757-cc419b043982)
+
+![Screenshot 2024-12-04 at 8 01 31 PM](https://github.com/user-attachments/assets/e26975c1-b451-456e-9559-4ece6bd0dc58)
+
+![Screenshot 2024-12-04 at 8 51 01 PM](https://github.com/user-attachments/assets/55a6c46a-8f7c-44ab-b291-19341822038a)
+
+
+
+---
+
+## Package Management and Security Hardening
+
+### Main Objective: Update the package manager, identify and address potential security issues, and install essential security tools.
+
+## Tasks
+
+1. **Update and Upgrade Packages to the Latest Package Versions**
+
+2. **Create a List of Installed Packages for Review**
+
+3. **Identify and Remove Potentially Vulnerable Packages**
+
+#### Notes
+   ##### Removed Packages and Security Vulnerabilities Explanation:
+   - **Telnet**: Transmits data, including passwords, in plaintext, making it vulnerable to interception.
+   - **RSH (Remote Shell)**: Lacks encryption and authentication, making it susceptible to spoofing and eavesdropping.
+
+4. **Remove Unnecessary Dependencies**
+
+5. **Install Essential Security Tools**
+  - **Install the following packages:**
+     - **UFW (Uncomplicated Firewall)**: Simplifies firewall management.
+     - **Lynis**: Performs security audits.
+     - **Tripwire**: Detects and reports file system changes.
+  
+
+![Screenshot 2024-12-04 at 8 58 25 PM](https://github.com/user-attachments/assets/9b2c68ce-2b21-4fe6-bc82-030438490423)
+
+![Screenshot 2024-12-04 at 9 05 07 PM](https://github.com/user-attachments/assets/2c71ef61-32d2-4239-b41e-379a03ba2248)
+
+![Screenshot 2024-12-04 at 9 58 38 PM](https://github.com/user-attachments/assets/c8516b2c-5cbc-4e93-86e4-b8901986f1f6)
+
+![Screenshot 2024-12-04 at 10 01 48 PM](https://github.com/user-attachments/assets/ba530537-6188-49d5-8b8a-58d576377585)
+
+![Screenshot 2024-12-04 at 10 05 25 PM](https://github.com/user-attachments/assets/7cceebb3-0ece-4e76-890e-cc7be4e7ee48)
+
+![Screenshot 2024-12-04 at 10 15 55 PM](https://github.com/user-attachments/assets/f56963c4-f184-429f-bd03-fbe780615b3b)
+
+![Screenshot 2024-12-04 at 10 18 26 PM](https://github.com/user-attachments/assets/172381a2-ac77-48e7-8cb3-a533ffd800fa)
 
