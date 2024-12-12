@@ -155,3 +155,52 @@ Below is the current list of employees and their employment status
 
 ![Screenshot 2024-12-03 at 6 40 56 PM](https://github.com/user-attachments/assets/3851b865-8249-45e4-80d9-6f73ac2af5de)
 
+
+
+---
+
+## File Permissions and Security Audit
+
+### Main Objective: Secure file permissions and clean up sensitive files from the system.
+
+## Tasks
+
+1. **Remove World Permissions in any user's home directory**
+
+2. **Update Permissions for Specific Scripts**
+- **Engineering Scripts**:
+  - Files containing the word `engineering` in the filename should only be accessible (view, edit, or execute) by members of the `engineering` group.
+  - Commands:
+    ```bash
+    find / -iname '*engineering*' -exec chown :engineering {} \;
+    find / -iname '*engineering*' -exec chmod 770 {} \;
+    ```
+
+- **Research Scripts**:
+  - Files containing the word `research` in the filename should only be accessible (view, edit, or execute) by members of the `research` group.
+  - Commands:
+    ```bash
+    find / -iname '*research*' -exec chown :research {} \;
+    find / -iname '*research*' -exec chmod 770 {} \;
+    ```
+
+- **Finance Scripts**:
+  - Files containing the word `finance` in the filename should only be accessible (view, edit, or execute) by members of the `finance` group.
+  - Commands:
+    ```bash
+    find / -iname '*finance*' -exec chown :finance {} \;
+    find / -iname '*finance*' -exec chmod 770 {} \;
+    ```
+
+### 3. Remove Files Containing Hidden Passwords
+- **Objective**: Search for files where employees may have stored passwords (e.g., files with names such as `password`, `.password`, or containing the word `password`) and delete them.
+- **Actions**:
+  1. Search for files containing the word `password` (case-insensitive):
+     ```bash
+     find / -iname '*password*'
+     ```
+  2. Review the files to confirm they contain sensitive information and delete them:
+     ```bash
+     rm <file>
+     ```
+
