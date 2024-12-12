@@ -19,7 +19,9 @@
 
 ## Pre-Hardening Steps
 
-### System Information Collection and OS Backup
+### Main Objective: Collect system information and backup the OS.
+
+## Tasks
 
 1. **Collect System Information**
    - Retrieve the following information and document it in a summary report:
@@ -77,24 +79,20 @@ Below is the current list of employees and their employment status
 
 ## Tasks
 
-### 1. Remove Terminated Staff
-- **Objective**: Delete all user accounts of staff listed as "Terminated."
+1. **Remove Terminated Staff**
 - **Actions**:
   - Remove their user accounts.
   - Delete their home directories and files.
 
-### 2. Lock User Accounts on Temporary Leave
-- **Objective**: Restrict access for employees on "temporary leave."
+2. **Lock User Accounts on Temporary Leave**
 - **Actions**:
   - Lock the accounts to prevent login.
 
-### 3. Unlock Employed Users
-- **Objective**: Ensure all users listed as "Employed" have active accounts.
+3. **Unlock Employed Users**
 - **Actions**:
   - Unlock their accounts if they are locked.
 
-### 4. Manage Group Memberships
-- **Objective**: Update group memberships for employees as per organizational changes.
+4. **Manage Group Memberships**
 - **Actions**:
   - Move all employees previously in the `marketing` group to a new group named `research`. Create the `research` group if it does not exist.
   - Remove the `marketing` group entirely, as the department has been closed.
