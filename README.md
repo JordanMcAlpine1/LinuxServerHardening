@@ -107,3 +107,22 @@ Below is the current list of employees and their employment status
 ![Screenshot 2024-12-02 at 10 09 27 PM](https://github.com/user-attachments/assets/cc62bbd3-8f8c-480b-ba71-dbbac3137531)
 
 ![Screenshot 2024-12-02 at 10 22 40 PM](https://github.com/user-attachments/assets/d415db70-8afd-4b02-82c6-18c0a7ad482b)
+
+
+
+---
+
+## Password Policy Update
+
+### Main Objective: Update the password requirements for all users to enhance security.
+
+### Requirements
+
+- Minimum 8 characters.
+- At least one special character.
+- Allow only 2 retries for incorrect passwords.
+- At least one uppercase character.
+
+
+![Screenshot 2024-12-03 at 11 56 11 AM](https://github.com/user-attachments/assets/0a7c8f89-1208-40e2-b4a7-a0e9a631ae8b)
+
