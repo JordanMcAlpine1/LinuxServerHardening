@@ -256,3 +256,23 @@ Below is the current list of employees and their employment status
 
 ![Screenshot 2024-12-04 at 10 18 26 PM](https://github.com/user-attachments/assets/172381a2-ac77-48e7-8cb3-a533ffd800fa)
 
+
+
+---
+
+## Service Management and Security Audit
+
+### Main Objective: Identify, manage, and secure system services by stopping, disabling, and removing unnecessary or potentially insecure services.
+
+### Tasks
+
+1. **List and Document All Services on the System**
+
+2. **Identify Specific Services**
+   - **Actions:**
+      - Check if any of the following services are running:  `mysql` `samba`
+      - Search for the specified services in the `service_list.txt` file
+
+3. **Stop, Disable, and Remove Identified Services from the System**
+
+
