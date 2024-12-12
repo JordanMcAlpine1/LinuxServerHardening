@@ -286,3 +286,61 @@ Below is the current list of employees and their employment status
 
 ![Screenshot 2024-12-05 at 4 42 50 PM](https://github.com/user-attachments/assets/69d155be-b683-4603-83c6-ec6b05c8e676)
 
+
+
+---
+
+## Log Management and Configuration
+
+### Main Objective: Configure journald for persistent log storage, limit log size, and set up log rotation to manage disk space efficiently.
+
+### Tasks
+
+1. **Configure `journald.conf` for Persistent Log Storage and Limited Size**
+   - **Actions**:
+      - Ensure logs are saved locally and disk usage is limited
+         - Set **storage=persistent**
+         - Set **systemMaxUse=300M**
+  
+
+2. **Configure Log Rotation**
+   - **Actions**:
+      - Prevent logs from using excessive disk space by rotating logs daily and retaining them for **7 days**.
+
+
+![Screenshot 2024-12-05 at 4 45 34 PM](https://github.com/user-attachments/assets/d619cec1-a034-4563-ae96-b20869aa8bb0)
+
+![Screenshot 2024-12-05 at 4 49 40 PM](https://github.com/user-attachments/assets/ca553773-e4fa-4d31-bc4f-c20a71a9201f)
+
+![Screenshot 2024-12-05 at 4 52 24 PM](https://github.com/user-attachments/assets/9eecc0b0-df72-4e7c-b23a-20625a1b42f2)
+
+
+
+---
+
+## Hardening Scripts for Automation
+
+### Main Objective: Create `bash` scripts to perform the aforementioned security hardening procedures.
+
+### hardening_script1
+
+![Screenshot 2024-12-06 at 3 37 28 PM](https://github.com/user-attachments/assets/cbe033a7-f592-489d-8fba-2c763e392c81)
+
+![Screenshot 2024-12-06 at 3 38 25 PM](https://github.com/user-attachments/assets/1435dbd1-aafc-46fc-ae6b-00174148f845)
+
+![Screenshot 2024-12-06 at 3 38 58 PM](https://github.com/user-attachments/assets/9f5d4d8a-3ef6-4114-83b3-31193ff8d797)
+
+
+### hardening_script1 Test
+
+![Screenshot 2024-12-05 at 10 27 24 PM](https://github.com/user-attachments/assets/d500fcd1-d05f-4617-ae51-d69778df843c)
+
+
+### hardening_script2
+
+![Screenshot 2024-12-06 at 3 07 23 PM](https://github.com/user-attachments/assets/088bc89a-4889-4020-9cb8-974ed7a3f60b)
+
+
+### hardening_script2 Test
+
+![Screenshot 2024-12-06 at 3 09 28 PM](https://github.com/user-attachments/assets/12f1db76-a296-45be-a716-86ba862ef186)
