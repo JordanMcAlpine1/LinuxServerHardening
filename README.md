@@ -376,3 +376,9 @@ Below is the current list of employees and their employment status
 ![Screenshot 2024-12-06 at 3 17 29 PM](https://github.com/user-attachments/assets/ceabb7c4-87cf-410e-bcf0-a14612638827)
 
 ![Screenshot 2024-12-06 at 3 18 20 PM](https://github.com/user-attachments/assets/2e069b9e-4de4-48db-b67d-fcf35c8e43f6)
+
+
+---
+
+## Key Takeaways:
+This project significantly enhanced system security by implementing critical measures such as secure SSH configurations, service auditing, and user access management to minimize vulnerabilities. Efficient resource management was achieved through persistent logging, log rotation, and the removal of unnecessary packages and services, ensuring optimal disk usage. Access control was strengthened by enforcing proper file and user permissions, reducing the risk of unauthorized access or privilege misuse. Proactive system maintenance was carried out by updating system packages, installing essential security tools, and automating log management tasks. The project provided hands-on experience with Linux tools and commands, improving proficiency in system administration, auditing, and hardening. By applying cybersecurity best practices, such as protecting sensitive data and managing user accounts, the project demonstrated a strong foundation for building resilient and secure systems.
